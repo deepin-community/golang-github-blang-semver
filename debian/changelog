@@ -1,5 +1,75 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-blang-semver (4.0.0-1) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * New upstream version
+  * Standards-Version: 4.6.0 (routine-update)
+  * debhelper-compat 13 (routine-update)
+  * Rules-Requires-Root: no (routine-update)
+  * watch file standard 4 (routine-update)
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Andreas Tille <tille@debian.org>  Wed, 26 Jan 2022 16:52:02 +0100
+
+golang-github-blang-semver (3.6.1-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository, Repository-Browse.
+  * Apply multi-arch hints. + golang-github-blang-semver-dev: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 06 Feb 2021 03:58:49 +0000
+
+golang-github-blang-semver (3.6.1-1) unstable; urgency=medium
+
+  [ Alexandre Viau ]
+  * Point Vcs-* urls to salsa.debian.org.
+
+  [ Dmitry Smirnov ]
+  * New upstream release
+  * Standards-Version: 4.4.1
+  * DH & compat to version 12
+  * Testsuite: autopkgtest-pkg-go
+  * Install examples
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Fri, 29 Nov 2019 21:20:24 +1100
+
+golang-github-blang-semver (3.5.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 3.5.1
+  * Change package Priority to optional
+  * Update Standards-Version to 4.1.0
+
+ -- Dr. Tobias Quathamer <toddy@debian.org>  Tue, 29 Aug 2017 13:29:45 +0200
+
+golang-github-blang-semver (3.5.0-1) unstable; urgency=medium
+
+  [ Tim Potter ]
+  * Team upload.
+  * Add me to uploaders
+
+  [ Dr. Tobias Quathamer ]
+  * New upstream version 3.5.0
+  * Update d/copyright
+  * Use debhelper v10
+  * Depend on golang-any instead of golang-go
+  * Update Standards-Version to 4.0.0
+  * Update d/watch
+
+ -- Dr. Tobias Quathamer <toddy@debian.org>  Wed, 26 Jul 2017 21:51:55 +0200
+
+golang-github-blang-semver (3.3.0-1) unstable; urgency=medium
+
+  [ Paul Tagliamonte ]
+  * Team upload.
+  * Use a secure transport for the Vcs-Git and Vcs-Browser URL
+
+  [ Dr. Tobias Quathamer ]
+  * Imported Upstream version 3.3.0
+
+ -- Dr. Tobias Quathamer <toddy@debian.org>  Sun, 03 Jul 2016 18:06:14 +0200
+
+golang-github-blang-semver (3.1.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #819032).
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Wed, 23 Mar 2016 15:28:52 +1100
